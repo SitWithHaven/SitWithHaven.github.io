@@ -1,6 +1,28 @@
 # Sit with Haven
 
-A mobile-friendly property-management MVP prototype for Disiplina Village Valenzuela City. It starts with 22 buildings and 792 units, supports up to 150 buildings with 36 units per building, and provides distinct Property Management and Association Management environments. Property Management includes Building, Commercial, SFR (single-family rental), and MFR (multifamily rental) profiles; association, property/unit, tenant, and homeowner dashboard previews; structured property profile sections; customizable property groups; universal search; profile-menu access to personal and administrator settings; bulk rent updates; a property-scoped unit directory with manual and CSV entry; manual tenant and household member records; pet details; recurring charges; a rent ledger and receipts; payment instructions; maintenance conversations; shared-space requests; violations; centralized individual and custom consolidated reports; notification preferences; and staff contact registration.
+Sit with Haven
+Sit with Haven is a mobile-friendly property management and association management prototype designed for small communities, villages, mid-rise housing developments, single-family rentals (SFR), and multifamily rentals (MFR).
+
+The platform provides separate Property Management and Association Management environments and supports portfolios of up to 150 buildings, with configurable units within each property.
+
+Overview
+Sit With Haven (VHMS) is a browser-based property and association management platform prototype inspired by enterprise property management workflows. The system includes property portfolio administration, resident management, rent tracking, maintenance coordination, reporting, HOA/COA administration, and role-based operational dashboards.
+
+Key Features
+Property, unit, tenant, homeowner, and association management
+Property and association dashboards
+Portfolio and property profile management
+Bulk rent updates and rent ledger tracking
+Resident and household records
+Maintenance requests and conversations
+Violation management
+Shared-space reservation requests
+Centralized reporting and exports
+User roles and permissions management
+Notification preferences and staff directory
+Progressive Web App (PWA) support
+Demo Prototype Only
+This project is intended for demonstration and prototyping purposes only and is not production-ready.
 
 ## Launch readiness
 
