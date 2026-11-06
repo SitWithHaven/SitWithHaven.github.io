@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#172b4d">
+    <meta name="description" content="Sit with Haven property management for Disiplina Village Valenzuela City.">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sit with Haven</title>
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" id="sidebar">
+        <a class="brand" href="#" aria-label="Sit with Haven home">
+          <span class="brand-mark">H</span>
+          <span><strong>SitWithHaven</strong><small id="brand-environment">PROPERTY MANAGEMENT</small></span>
+        </a>
+        <div class="workspace-label">BUSINESS MODULE</div>
+        <div class="environment-switcher" role="group" aria-label="Business environment">
+          <button type="button" data-environment="property-management" class="environment-button">Property Management</button>
+          <button type="button" data-environment="association" class="environment-button">Association Management</button>
+        </div>
+        <nav class="primary-nav" id="primary-nav" aria-label="Main navigation"></nav>
+        <div class="sidebar-bottom">
+          <div class="property-chip">
+            <span class="property-dot"></span>
+            <span><strong class="property-name">Disiplina Village Valenzuela City</strong><small class="property-count">22 buildings · 792 units · capacity 150</small></span>
+          </div>
+          <div class="profile-menu-container">
+            <button type="button" class="profile-chip" id="profile-menu-toggle" aria-haspopup="menu" aria-expanded="false" aria-controls="profile-menu">
+              <span class="avatar" id="profile-avatar">AM</span><span><strong id="profile-display-name">Alex Morgan</strong><small id="active-role-label">Property manager</small></span><span class="profile-menu" aria-hidden="true">⌄</span>
+            </button>
+            <div class="profile-menu-popover" id="profile-menu" role="menu" hidden>
+              <div class="profile-menu-heading"><strong id="profile-menu-name">Alex Morgan</strong><small id="profile-menu-role">Property manager</small></div>
+              <button type="button" role="menuitem" data-page="my-settings">My Settings</button>
+              <button type="button" role="menuitem" data-page="settings" id="general-settings-menu-item" hidden>General Settings</button>
+            </div>
+          </div>
+          <label class="role-preview-label">DEMO USER<select id="demo-user-switch" aria-label="Demo user preview"></select></label>
+          <label class="role-preview-label">DEMO ROLE PREVIEW<select id="demo-role-switch" aria-label="Demo role preview"></select></label>
+        </div>
+      </aside>
+
+      <main class="main-content">
+        <header class="topbar">
+          <button class="mobile-menu" id="mobile-menu" aria-label="Open navigation">☰</button>
+          <div class="breadcrumb"><span class="property-name">Disiplina Village Valenzuela City</span><span class="crumb-divider">/</span><strong id="page-title">Overview</strong></div>
+          <div class="universal-search">
+            <label class="universal-search-field" for="universal-search"><span aria-hidden="true">⌕</span><input id="universal-search" type="search" placeholder="Search everything..." autocomplete="off" aria-label="Search everything"></label>
+            <div class="universal-search-results" id="universal-search-results" hidden></div>
+          </div>
+          <div class="topbar-actions">
+            <span class="today-label" id="today-label"></span>
+            <button class="button button-primary button-small" id="quick-payment">Record payment</button>
+          </div>
+        </header>
+        <div class="workspace">
+          <div class="demo-banner"><span class="demo-dot"></span><span><strong>Demo only — not for actual resident data</strong> · Information is stored in this browser and is not shared, backed up, or secured by an account. Payments and notifications are not connected.</span></div>
+          <div id="app" aria-live="polite"></div>
+        </div>
+      </main>
+    </div>
+    <dialog id="modal" class="modal">
+      <div id="modal-content"></div>
+    </dialog>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script src="launch-config.js" defer></script>
+    <script src="app.js" defer></script>
+  </body>
+</html>
